@@ -13,5 +13,5 @@ sequenceDiagram
     server-->>browser: data.json file
     deactivate server
  
-    Note right of browser: The browser renders the notes with new value added
+    Note right of browser: The browser renders the notes with new value added without reloading the page
     
