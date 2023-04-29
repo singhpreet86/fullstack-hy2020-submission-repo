@@ -7,11 +7,6 @@ sequenceDiagram
     activate server
     server-->>browser: HTML document
     deactivate server
-
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    activate server
-    server-->>browser: data.json file
-    deactivate server
  
-    Note right of browser: The browser renders the notes with new value added without reloading the page
+    Note right of browser: The browser renders all the application in one request. 
     
